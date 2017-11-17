@@ -21,6 +21,7 @@
      // jQuery is loaded - load our external script.
      //
      $(function () {
+       loadScript("wordfreq.js");
        loadScript("bookmarks.js");
      });
     </script>
@@ -30,7 +31,7 @@
   <body>
     <table id="layout">
       <tr>
-        <td rowspan="1" valign="top">
+        <td rowspan="1" valign="top" class="bookmark_list">
           <!-- THE BOOKMARKS -->
           <ul class="bookmarks" id="bookmarks">
           </ul>
